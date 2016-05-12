@@ -8128,5 +8128,35 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 body {
-  padding-bottom: 50px;
+  padding-bottom: 0;
+  font-family: Arial, Tahoma;
+  color: #363636;
+  background: #ededed;
+  font-size: 16px;
+}
+
+.primary, strong, h2 {
+  color: #3b5a76;
+}
+
+.container-main {
+  background: #fff;
+  margin-top: 80px;
+  padding: 0 30px 30px 30px;
+}
+
+header {
+  height: 100px;
+  overflow: auto;
+}
+
+header h1 {
+  margin: 0;
+  padding: 20px 0 0 0;
+  font-size: 2.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  text-align: center;
+  line-height: 1.4em;
 }
